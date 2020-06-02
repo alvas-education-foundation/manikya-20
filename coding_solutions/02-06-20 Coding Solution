@@ -1,0 +1,22 @@
+: c++ prog to find sum of digits until the number is a single digits 
+
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+	int number = 147; //Any number.
+	int res;
+
+	if(number)
+		res = number % 9 == 0 ? 9 : number % 9 ;
+	else 
+		res = 0;
+
+	//print the result
+	cout<<res;
+
+	return 0;
+}
+

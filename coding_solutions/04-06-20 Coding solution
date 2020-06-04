@@ -1,0 +1,11 @@
+Python program to print calendar for given year 
+
+
+import calendar 
+  
+def printcalendar(year): 
+       
+     print(calendar.calendar(year)) 
+  
+year = 2019
+printcalendar(year) 
